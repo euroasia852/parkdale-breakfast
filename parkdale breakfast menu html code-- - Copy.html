@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkdale Bar & Grill - Menu</title>
+    <style>
+        /* Basic reset and styling for easy readability */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif.serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #c5a059;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        header p {
+            color: #c5a059;
+            font-size: 0.95rem;
+            margin-top: 5px;
+        }
+        header .contact {
+            color: #aaa;
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+        h2.category-title {
+            color: #c5a059;
+            font-size: 1.4rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 15px;
+        }
+        .item-details {
+            flex-grow: 1;
+            padding-right: 20px;
+        }
+        .item-name {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #fff;
+        }
+        .item-desc {
+            font-size: 0.9rem;
+            color: #b0b0b0;
+            margin-top: 3px;
+        }
+        .item-options {
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+            margin-top: 2px;
+        }
+        .item-price {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: #c5a059;
+            white-space: nowrap;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.8rem;
+            color: #777;
+            border-top: 1px solid #333;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <header>
+        <h1>Parkdale Bar & Grill</h1>
+        <p>Breakfast & Lunch Menu</p>
+        <div class="contact">1449 Queen St West, Toronto, ON &bull; 647-624-9717 &bull; www.parkdalebreakfast.ca</div>
+    </header>
+
+    <!-- BREAKFAST SECTION -->
+    <h2 class="category-title">Breakfast</h2>
+    
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">House Breakfast Special</div>
+            <div class="item-desc">2 eggs, Home Fries, Toast, choice of sausage or bacon</div>
+        </div>
+        <div class="item-price">$9.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">French Toast</div>
+            <div class="item-desc">3 pieces of french toast with syrup and butter</div>
+        </div>
+        <div class="item-price">$8.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Pancakes</div>
+            <div class="item-desc">3 home made pancakes with syrup and butter</div>
+        </div>
+        <div class="item-price">$8.99</div>
+    </div>
+
+    <!-- LUNCH SECTION -->
+    <h2 class="category-title">Lunch & Mains</h2>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Fried Chicken</div>
+            <div class="item-desc">2 piece fresh crispy chicken served with fries</div>
+        </div>
+        <div class="item-price">$9.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Fish & Chips</div>
+            <div class="item-desc">Crispy fresh fish served with fries and tartar sauce</div>
+        </div>
+        <div class="item-price">$13.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Hamburger</div>
+            <div class="item-desc">Fresh beef patty served with crispy fries</div>
+            <div class="item-options">• Add Cheese $1.50 &nbsp;• Add Bacon $1.50</div>
+        </div>
+        <div class="item-price">$9.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Chicken Wings</div>
+            <div class="item-desc">1 lbs of fresh wings with choice of sauce, served with crispy fries</div>
+            <div class="item-options">Choice of: Plain / BBQ / Honey Garlic / XXX Spicy</div>
+        </div>
+        <div class="item-price">$12.99</div>
+    </div>
+
+    <!-- SIDES SECTION -->
+    <h2 class="category-title">Sides & Shared Plates</h2>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">French Fries</div>
+            <div class="item-desc">Crispy french fries</div>
+        </div>
+        <div class="item-price">$5.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Potato Wedges</div>
+            <div class="item-desc">Seasoned potato wedges</div>
+        </div>
+        <div class="item-price">$6.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Poutine</div>
+            <div class="item-desc">Crispy french fries smothered in cheese and gravy</div>
+        </div>
+        <div class="item-price">$9.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Spring Rolls</div>
+            <div class="item-desc">5 vegetable spring rolls served with plum sauce</div>
+        </div>
+        <div class="item-price">$5.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Chinese Fried Rice</div>
+            <div class="item-desc">Stir fried rice with mixed vegetables and soy-sauce</div>
+        </div>
+        <div class="item-price">$8.99</div>
+    </div>
+
+    <div class="menu-item">
+        <div class="item-details">
+            <div class="item-name">Shrimp Fried Rice</div>
+            <div class="item-desc">Chinese fried rice served with shrimp</div>
+        </div>
+        <div class="item-price">$12.99</div>
+    </div>
+
+    <footer>
+        &copy; Parkdale Bar & Grill. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
